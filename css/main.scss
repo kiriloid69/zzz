@@ -1,0 +1,57 @@
+$main-color: #424F67;
+$second-color: #B3C8C9;
+$text-color: #302F34;
+$backgound-color: #F1F6FF;
+
+// @font-face {
+//     font-family: 'Circular Std';
+//     src: url('../fonts/CircularStd-Bold.eot');
+//     src: local('../fonts/Circular Std Bold'), local('../fonts/CircularStd-Bold'),
+//         url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+//         url('../fonts/CircularStd-Bold.woff') format('woff'),
+//         url('../fonts/CircularStd-Bold.ttf') format('truetype');
+//     font-weight: bold;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Circular Std Bold';
+//     src: url('../fonts/CircularStd-BoldItalic.eot');
+//     src: local('Circular Std Bold Italic'), local('CircularStd-BoldItalic'),
+//         url('../fonts/CircularStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/CircularStd-BoldItalic.woff2') format('woff2'),
+//         url('../fonts/CircularStd-BoldItalic.woff') format('woff'),
+//         url('../fonts/CircularStd-BoldItalic.ttf') format('truetype');
+//     font-weight: bold;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'Circular Std Book';
+//     src: url('../fonts/CircularStd-Book.eot');
+//     src: local('Circular Std Book'), local('CircularStd-Book'),
+//         url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/CircularStd-Book.woff2') format('woff2'),
+//         url('../fonts/CircularStd-Book.woff') format('woff'),
+//         url('../fonts/CircularStd-Book.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Circular Std Book';
+//     src: url('../fonts/CircularStd-BookItalic.eot');
+//     src: local('Circular Std Book Italic'), local('CircularStd-BookItalic'),
+//         url('../fonts/CircularStd-BookItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/CircularStd-BookItalic.woff2') format('woff2'),
+//         url('../fonts/CircularStd-BookItalic.woff') format('woff'),
+//         url('../fonts/CircularStd-BookItalic.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: italic;
+// }
+
+h1 {
+    font-family: 'Circular Std', sans-serif;
+}
+
