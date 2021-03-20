@@ -1,4 +1,107 @@
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-Bold.eot");
+  src: local("../fonts/Circular Std Bold"), local("../fonts/CircularStd-Bold"), url("../fonts/CircularStd-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff"), url("../fonts/CircularStd-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular Std";
+  src: url("../fonts/CircularStd-BoldItalic.eot");
+  src: local("Circular Std Bold Italic"), local("CircularStd-BoldItalic"), url("../fonts/CircularStd-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-BoldItalic.woff2") format("woff2"), url("../fonts/CircularStd-BoldItalic.woff") format("woff"), url("../fonts/CircularStd-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("../fonts/CircularStd-Book.eot");
+  src: local("Circular Std Book"), local("CircularStd-Book"), url("../fonts/CircularStd-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff"), url("../fonts/CircularStd-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("../fonts/CircularStd-BookItalic.eot");
+  src: local("Circular Std Book Italic"), local("CircularStd-BookItalic"), url("../fonts/CircularStd-BookItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/CircularStd-BookItalic.woff2") format("woff2"), url("../fonts/CircularStd-BookItalic.woff") format("woff"), url("../fonts/CircularStd-BookItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  color: #302f34;
+  background-color: #f1f6ff;
+  font-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  float: left;
+  list-style: none;
+}
+
 h1 {
-  font-family: 'Circular Std', sans-serif;
+  font-family: "Circular Std", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.button {
+  display: inline-block;
+  font-family: "Circular Std", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  border: 3px solid #424f67;
+  border-radius: 10px;
+  color: #424f67;
+  text-decoration: none;
+  text-align: center;
+  padding: 18px 40px;
+  margin-top: 40px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #424f67;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button:active {
+  background-color: #302f34;
+}
+
+.small-button {
+  border: 2px solid #424f67;
+  font-size: 18px;
+  padding: 11px 26px;
 }
 /*# sourceMappingURL=main.css.map */
