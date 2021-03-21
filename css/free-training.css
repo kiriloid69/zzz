@@ -1,0 +1,92 @@
+.free-main {
+  background-image: url(../img/main-free-bg.png);
+  background-size: cover;
+}
+
+.free-main .content {
+  padding: 130px 0 50px 0;
+}
+
+.free-main .left-block h1,
+.free-main .left-block h2,
+.free-main .left-block p {
+  text-align: left !important;
+}
+
+.free-main .left-block p {
+  margin: 40px 0;
+}
+
+.free-main h1 {
+  margin-top: 80px;
+}
+
+.free-main h2 {
+  text-align: center;
+}
+
+.free-main p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.header-form input, .header-form textarea {
+  width: 100%;
+  padding: 13px 18px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.header-form input::-webkit-input-placeholder, .header-form textarea::-webkit-input-placeholder {
+  color: #8D8D8D;
+}
+
+.header-form input:-ms-input-placeholder, .header-form textarea:-ms-input-placeholder {
+  color: #8D8D8D;
+}
+
+.header-form input::-ms-input-placeholder, .header-form textarea::-ms-input-placeholder {
+  color: #8D8D8D;
+}
+
+.header-form input::placeholder, .header-form textarea::placeholder {
+  color: #8D8D8D;
+}
+
+.header-form .policy-check input {
+  border-radius: 3px;
+  height: 20px;
+  width: 20px;
+  padding-bottom: 40px;
+}
+
+.header-form .policy-check span {
+  margin-left: 30px;
+}
+
+.articles .content {
+  margin: 100px 0;
+}
+
+.articles img {
+  width: 100%;
+}
+
+.articles h3 {
+  margin: 30px 0;
+}
+
+.center-h2 {
+  margin: 75px 0 35px;
+  text-align: center;
+}
+
+.article-title {
+  margin-bottom: 25px;
+}
+
+.article-link {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
