@@ -14,7 +14,7 @@ document.addEventListener('scroll', () => {
 });
 const heroSwiper = new Swiper('.hero-swiper', {
    // Optional parameters
-   loop: true,
+   loop: false,
    autoHeight: false,
    spaceBetween: 70,
    slidesPerView: 1,
@@ -33,7 +33,7 @@ const heroSwiper = new Swiper('.hero-swiper', {
 });
 
 const swiper = new Swiper('.reviews-swiper', {
-   loop: true,
+   loop: false,
    spaceBetween: 30,
    slidesPerView: 3,
    slidesPerGroup: 1,

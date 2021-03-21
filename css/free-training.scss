@@ -1,5 +1,5 @@
 .free-main {
-    background-image: url(../img/main-free-bg.png);
+    background-image: url(../img/free_hero_bg.webp);
     background-size: cover;
 
     .content {
@@ -32,19 +32,19 @@
 }
 
 .header-form {
-    input, textarea {
+    input,
+    textarea {
         width: 100%;
         padding: 13px 18px;
         border-radius: 6px;
         margin-bottom: 10px;
 
         &::placeholder {
-            color: #8D8D8D;
+            color: #8d8d8d;
         }
     }
 
     .policy-check {
-
         input {
             border-radius: 3px;
             height: 20px;
@@ -59,7 +59,6 @@
 }
 
 .articles {
-
     .content {
         margin: 100px 0;
     }

@@ -1,5 +1,5 @@
 .free-main {
-  background-image: url(../img/main-free-bg.png);
+  background-image: url(../img/free_hero_bg.webp);
   background-size: cover;
 }
 
@@ -30,27 +30,32 @@
   text-align: center;
 }
 
-.header-form input, .header-form textarea {
+.header-form input,
+.header-form textarea {
   width: 100%;
   padding: 13px 18px;
   border-radius: 6px;
   margin-bottom: 10px;
 }
 
-.header-form input::-webkit-input-placeholder, .header-form textarea::-webkit-input-placeholder {
-  color: #8D8D8D;
+.header-form input::-webkit-input-placeholder,
+.header-form textarea::-webkit-input-placeholder {
+  color: #8d8d8d;
 }
 
-.header-form input:-ms-input-placeholder, .header-form textarea:-ms-input-placeholder {
-  color: #8D8D8D;
+.header-form input:-ms-input-placeholder,
+.header-form textarea:-ms-input-placeholder {
+  color: #8d8d8d;
 }
 
-.header-form input::-ms-input-placeholder, .header-form textarea::-ms-input-placeholder {
-  color: #8D8D8D;
+.header-form input::-ms-input-placeholder,
+.header-form textarea::-ms-input-placeholder {
+  color: #8d8d8d;
 }
 
-.header-form input::placeholder, .header-form textarea::placeholder {
-  color: #8D8D8D;
+.header-form input::placeholder,
+.header-form textarea::placeholder {
+  color: #8d8d8d;
 }
 
 .header-form .policy-check input {
