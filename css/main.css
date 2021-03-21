@@ -434,18 +434,12 @@ h3 {
 }
 
 .offer__title {
-  font-size: 40px;
   color: #302f34;
   margin-bottom: 30px;
 }
 
 .offer__text {
-  font-size: 20px;
   margin-bottom: 30px;
-}
-
-.offer__subtitle {
-  font-size: 30px;
 }
 
 .hero-man_img {
