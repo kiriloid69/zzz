@@ -14,11 +14,14 @@ document.addEventListener('scroll', () => {
 });
 const heroSwiper = new Swiper('.hero-swiper', {
    // Optional parameters
-   loop: false,
+   loop: true,
    autoHeight: false,
    spaceBetween: 70,
    slidesPerView: 1,
    direction: 'vertical',
+   autoplay: {
+      delay: 2000,
+   },
    pagination: {
       el: '.swiper-pagination',
       type: 'fraction'
@@ -30,10 +33,13 @@ const heroSwiper = new Swiper('.hero-swiper', {
 });
 
 const swiper = new Swiper('.reviews-swiper', {
-   loop: false,
+   loop: true,
    spaceBetween: 30,
    slidesPerView: 3,
-   slidesPerGroup: 3,
+   slidesPerGroup: 1,
+   autoplay: {
+      delay: 2000,
+   },
    pagination: {
       el: '.swiper-pagination',
       type: 'fraction'
