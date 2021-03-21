@@ -30,6 +30,7 @@
   font-style: italic;
 }
 
+/* CONTENT */
 body {
   color: #302f34;
   background-color: #f1f6ff;
@@ -104,4 +105,275 @@ h3 {
   font-size: 18px;
   padding: 11px 26px;
 }
+
+.review-button-block {
+  text-align: center;
+}
+
+/* CONTENT END */
+/* FOOTER */
+footer {
+  background-color: #302f34;
+  color: #fff;
+  min-height: 400px;
+}
+
+footer .content {
+  padding: 80px 0;
+}
+
+footer .footer-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+footer a:hover {
+  color: #b3c8c9;
+}
+
+footer h3 {
+  margin: 20px 0;
+}
+
+footer .footer-p {
+  font-size: 14px;
+}
+
+footer .footer-link-more {
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+footer .footer-input-form {
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  font-size: 14px;
+  padding: 10px 3px;
+  width: 80%;
+  margin-top: 15px;
+  color: #fff;
+}
+
+footer .footer-input-form:focus {
+  outline: none;
+}
+
+footer .video-youtube {
+  margin: 30px 0;
+}
+
+footer .video-youtube iframe {
+  border-radius: 10px;
+}
+
+footer .society {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .society div {
+  height: 40px;
+  width: 40px;
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+}
+
+footer .society .icon-society {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  padding: 9px;
+  background-color: #424245;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+footer .society .icon-society img:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+footer .society .icon-society:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+footer .society #inst {
+  position: relative;
+}
+
+footer .society #inst:hover::after {
+  opacity: 1;
+}
+
+footer .society #inst img {
+  z-index: 100;
+}
+
+footer .society #inst::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: 50%;
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), -webkit-gradient(linear, left top, left bottom, from(#6559ca), color-stop(30%, #bc318f), color-stop(50%, #e33f5f), color-stop(70%, #f77638), to(#fec66d));
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+footer .society #vk:hover {
+  background-color: #2787f5;
+}
+
+footer .society #twitter:hover {
+  background-color: #2787f5;
+}
+
+footer .society #twitter:hover {
+  background-color: #00aced;
+}
+
+footer .society #youtube:hover {
+  background-color: #ff0100;
+}
+
+footer .society #facebook:hover {
+  background-color: #4267b2;
+}
+
+footer .society #livejournal:hover {
+  background-color: #00a8e1;
+}
+
+footer .footer-button-block {
+  text-align: center;
+}
+
+footer .footer-button {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  padding: 9px 20px;
+  margin-top: 30px;
+}
+
+footer .footer-button:hover {
+  background-color: #fff;
+  color: #302f34;
+}
+
+/* FOOTER  END*/
+/* MEDIA */
+@media screen and (max-width: 992px) {
+  footer .society .icon-society {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 992px) and (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .button {
+    font-size: 30px;
+    border: 3px solid #424f67;
+    border-radius: 10px;
+    padding: 18px 40px;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  .button:hover {
+    color: #fff;
+    background-color: #424f67;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .button:active {
+    background-color: #302f34;
+  }
+  .small-button {
+    border: 2px solid #424f67;
+    font-size: 18px;
+    padding: 11px 26px;
+  }
+}
+
+@media screen and (max-width: 992px) and (max-width: 425px) {
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .button {
+    display: inline-block;
+    font-family: "Circular Std", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    border: 3px solid #424f67;
+    border-radius: 10px;
+    color: #424f67;
+    text-decoration: none;
+    text-align: center;
+    padding: 18px 40px;
+    margin-top: 40px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .button:hover {
+    color: #fff;
+    background-color: #424f67;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .button:active {
+    background-color: #302f34;
+  }
+  .small-button {
+    border: 2px solid #424f67;
+    font-size: 18px;
+    padding: 11px 26px;
+  }
+  .review-button-block {
+    text-align: center;
+  }
+}
+
+/* MEDIA END */
 /*# sourceMappingURL=main.css.map */

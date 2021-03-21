@@ -35,6 +35,8 @@ $backgound-color: #f1f6ff;
     font-style: italic;
 }
 
+/* CONTENT */
+
 body {
     color: $text-color;
     background-color: #f1f6ff;
@@ -102,3 +104,292 @@ h3 {
     font-size: 18px;
     padding: 11px 26px;
 }
+
+.review-button-block {
+    text-align: center;
+}
+
+
+/* CONTENT END */
+
+/* FOOTER */
+
+footer {
+    background-color: $text-color;
+    color: #fff;
+    min-height: 400px;
+
+    .content {
+        padding: 80px 0;
+    }
+
+    .footer-title {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    a:hover {
+        color: $second-color;
+    }
+
+    h3 {
+        margin: 20px 0;
+    }
+
+    .footer-p {
+        font-size: 14px;
+    }
+
+    .footer-link-more {
+        text-decoration: underline;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .footer-input-form {
+        background-color: transparent;
+        border-bottom: 1px solid #fff;
+        font-size: 14px;
+        padding: 10px 3px;
+        width: 80%;
+        margin-top: 15px;
+        color: #fff;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .video-youtube {
+        iframe {
+            border-radius: 10px;
+        }
+
+        margin: 30px 0;
+    }
+
+    .society {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            height: 40px;
+            width: 40px;
+            background-color: red;
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        .icon-society {
+            display: flex;
+            height: 40px;
+            width: 40px;
+            padding: 9px;
+            background-color: #424245;
+            text-align: center;
+            border-radius: 50%;
+            transition: .2s;
+
+            img:hover {
+                transition: 0.2s;
+            }
+
+            &:hover {
+                transition: 0.2s;
+            }
+        }
+
+        #inst {
+            position: relative;
+
+            &:hover {
+               &::after {
+                   opacity: 1;
+               } 
+            }
+
+            img {
+                z-index: 100;
+            }
+        }
+
+        #inst::after {
+            content: '';
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            transition: .2s;
+            border-radius: 50%;
+            background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+            radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+        } 
+
+        // #inst:hover {
+        //     background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+        //         radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+        //     transition: 2s;
+        //     }
+
+        #vk:hover {
+            background-color: #2787f5;
+        }
+
+        #twitter:hover {
+            background-color: #2787f5;
+        }
+
+        #twitter:hover {
+            background-color: #00aced;
+        }
+
+        #youtube:hover {
+            background-color: #ff0100;
+        }
+
+        #facebook:hover {
+            background-color: #4267b2;
+        }
+
+        #livejournal:hover {
+            background-color: #00a8e1;
+        }
+    }
+
+    .footer-button-block {
+        text-align: center;
+    }
+
+    .footer-button {
+        border: 2px solid #fff;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #fff;
+        padding: 9px 20px;
+        margin-top: 30px;
+
+        &:hover {
+            background-color: #fff;
+            color: $text-color;
+        }
+    }
+}
+
+/* FOOTER  END*/
+
+
+/* MEDIA */
+
+@media screen and (max-width: 992px) {
+    footer {
+        .society {
+            .icon-society {
+                display: flex;
+                height: 30px;
+                width: 30px;
+                padding: 5px;
+        }
+        }
+    }
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+    
+    h3 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    
+    .button {
+        font-size: 30px;
+        border: 3px solid $main-color;
+        border-radius: 10px;
+        padding: 18px 40px;
+        margin-top: 40px;
+        cursor: pointer;
+        &:hover {
+            color: #fff;
+            background-color: $main-color;
+            transition: 0.3s;
+        }
+        &:active {
+            background-color: $text-color;
+        }
+    }
+    
+    .small-button {
+        border: 2px solid $main-color;
+        font-size: 18px;
+        padding: 11px 26px;
+    }
+
+}
+
+
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 22px;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+    
+    h3 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+    
+    .button {
+        display: inline-block;
+        font-family: "Circular Std", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        border: 3px solid $main-color;
+        border-radius: 10px;
+        color: $main-color;
+        text-decoration: none;
+        text-align: center;
+        padding: 18px 40px;
+        margin-top: 40px;
+        background-color: transparent;
+        cursor: pointer;
+        &:hover {
+            color: #fff;
+            background-color: $main-color;
+            transition: 0.3s;
+        }
+        &:active {
+            background-color: $text-color;
+        }
+    }
+    
+    .small-button {
+        border: 2px solid $main-color;
+        font-size: 18px;
+        padding: 11px 26px;
+    }
+    
+    .review-button-block {
+        text-align: center;
+    }
+}
+
+}
+
+/* MEDIA END */

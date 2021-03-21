@@ -15,7 +15,6 @@
 
 .free-main .left-block p {
   margin: 40px 0;
-  font-size: 20px;
 }
 
 .free-main h1 {
@@ -77,8 +76,18 @@
   margin: 30px 0;
 }
 
-.articles-h2 {
+.center-h2 {
   margin: 75px 0 35px;
   text-align: center;
+}
+
+.article-title {
+  margin-bottom: 25px;
+}
+
+.article-link {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
 }
 /*# sourceMappingURL=free-training.css.map */
