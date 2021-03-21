@@ -401,7 +401,7 @@ h3 {
 }
 
 .hero {
-  background: #666 url(../img/hero_bg.jpg);
+  background: #f1f6ff url(../img/hero_bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 170px;
