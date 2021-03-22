@@ -564,13 +564,18 @@ h3 {
 // .col-xl-4 {
 // }
 .slide__img {
+    background-color: $text-color;
+    position: relative;
     margin-bottom: 20px;
     border-radius: 30px 5px;
     overflow: hidden;
     height: 350px;
     & img {
-        width: 100%;
-        height: 100%;
+        position: absolute;
+        top: -5%;
+        left: -5%;
+        width: 110%;
+        height: 110%;
         object-fit: cover;
     }
 }
@@ -849,19 +854,18 @@ footer {
             padding: 11px 26px;
         }
         .hero-swiper {
-            height: 60vw;
+            height: 370px;
         }
     }
     @media screen and (max-width: 635px) {
+        .hero {
+            padding-top: 120px;
+        }
         .hero-man_img {
             display: none;
         }
     }
-    @media all and (max-width: 550px) {
-        .card__link {
-            padding: 40px;
-        }
-    }
+
     @media screen and (max-width: 425px) {
         h1 {
             font-size: 22px;
@@ -912,5 +916,10 @@ footer {
         .review-button-block {
             text-align: center;
         }
+    }
+}
+@media all and (max-width: 550px) {
+    .card__link {
+        padding: 40px;
     }
 }

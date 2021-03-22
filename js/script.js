@@ -47,9 +47,9 @@ const swiper = new Swiper('.reviews-swiper', {
    spaceBetween: 30,
    slidesPerView: 3,
    slidesPerGroup: 1,
-   autoplay: {
-      delay: 2000,
-   },
+   // autoplay: {
+   //    delay: 2000,
+   // },
    pagination: {
       el: '.swiper-pagination',
       type: 'fraction'
