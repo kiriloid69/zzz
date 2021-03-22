@@ -19,9 +19,9 @@ const heroSwiper = new Swiper('.hero-swiper', {
    spaceBetween: 70,
    slidesPerView: 1,
    direction: 'vertical',
-   autoplay: {
-      delay: 2000,
-   },
+   // autoplay: {
+   //    delay: 2000,
+   // },
    pagination: {
       el: '.swiper-pagination',
       type: 'fraction'
@@ -47,5 +47,23 @@ const swiper = new Swiper('.reviews-swiper', {
    scrollbar: {
       el: '.swiper-scrollbar',
       draggable: true,
+   },
+
+   breakpoints: {
+      // when window width is >= 320px
+      320: {
+         slidesPerView: 1,
+         spaceBetween: 20
+      },
+      // when window width is >= 480px
+      560: {
+         slidesPerView: 2,
+         spaceBetween: 30
+      },
+      // when window width is >= 640px
+      1000: {
+         slidesPerView: 3,
+         // spaceBetween: 40
+      }
    },
 });

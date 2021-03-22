@@ -331,6 +331,17 @@ h3 {
         transform: translateX(0);
     }
 }
+@media all and (max-width: 850px) {
+    .coaching__row {
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+    }
+    .card {
+        max-width: 500px;
+        // margin: 20px auto;
+    }
+}
 @media all and (max-width: 800px) {
     // .header__icon {
     //     padding: 5px;
@@ -426,7 +437,8 @@ h3 {
 
 // !0000000000000000000000000000
 .hero-swiper {
-    height: 630px;
+    max-height: 630px;
+    height: 100vh;
     overflow: hidden;
     padding: 10px;
     & .swiper-pagination-fraction {
@@ -468,6 +480,7 @@ h3 {
     bottom: 0px;
     right: 0;
     max-width: 800px;
+    width: 60vw;
 }
 // .info {
 // }
@@ -508,6 +521,7 @@ h3 {
 // }
 
 .coaching {
+    background-color: #21252d;
     background-image: url(../img/coaching_bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
@@ -520,8 +534,10 @@ h3 {
 // }
 .coaching__row {
     display: flex;
-    // margin-bottom: 40px;
-    margin: 0 15px;
+    // flex-wrap: wrap;
+    // margin: 0 15px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 // .offset-xl-1 {
 // }
@@ -833,7 +849,11 @@ footer {
             padding: 11px 26px;
         }
     }
-
+    @media all and (max-width: 550px) {
+        .card__link {
+            padding: 40px;
+        }
+    }
     @media screen and (max-width: 425px) {
         h1 {
             font-size: 22px;
