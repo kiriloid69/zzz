@@ -532,7 +532,8 @@ h3 {
   height: 350px;
 }
 
-.slide__img img {
+.slide__img img,
+.slide__img svg {
   position: absolute;
   top: -5%;
   left: -5%;
