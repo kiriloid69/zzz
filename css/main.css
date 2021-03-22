@@ -369,7 +369,7 @@ h3 {
   }
 }
 
-@media all and (max-width: 970px) {
+@media screen and (max-width: 970px) {
   .header__logo {
     position: static;
     -webkit-transform: translateX(0);
@@ -377,7 +377,7 @@ h3 {
   }
 }
 
-@media all and (max-width: 850px) {
+@media screen and (max-width: 850px) {
   .coaching__row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -392,7 +392,7 @@ h3 {
   }
 }
 
-@media all and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .header {
     font-size: 16px;
   }
@@ -548,6 +548,10 @@ h3 {
 
 .swiper-container {
   padding-bottom: 50px;
+}
+
+.swiper-container .swiper-wrapper {
+  padding: 0;
 }
 
 .swiper-container-horizontal > .swiper-scrollbar {
@@ -815,6 +819,12 @@ footer .footer-button:hover {
   }
 }
 
+@media screen and (max-width: 992px) and (max-width: 550px) {
+  .card__link {
+    padding: 40px;
+  }
+}
+
 @media screen and (max-width: 992px) and (max-width: 425px) {
   h1 {
     font-size: 22px;
@@ -859,11 +869,5 @@ footer .footer-button:hover {
   }
   .review-button-block {
     text-align: center;
-  }
-}
-
-@media all and (max-width: 550px) {
-  .card__link {
-    padding: 40px;
   }
 }
