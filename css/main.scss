@@ -19,6 +19,7 @@ li {
     list-style: none;
 }
 @font-face {
+    font-display: swap;
     font-family: "Circular Std";
     src: url("../fonts/CircularStd-Bold.eot");
     src: local("../fonts/Circular Std Bold"), local("../fonts/CircularStd-Bold"),
@@ -30,6 +31,7 @@ li {
 }
 
 @font-face {
+    font-display: swap;
     font-family: "Circular Std";
     src: url("../fonts/CircularStd-BoldItalic.eot");
     src: local("Circular Std Bold Italic"), local("CircularStd-BoldItalic"),
@@ -42,6 +44,7 @@ li {
 }
 
 @font-face {
+    font-display: swap;
     font-family: "Circular Std";
     src: url("../fonts/CircularStd-Book.eot");
     src: local("Circular Std Book"), local("CircularStd-Book"),
@@ -53,6 +56,7 @@ li {
 }
 
 @font-face {
+    font-display: swap;
     font-family: "Circular Std";
     src: url("../fonts/CircularStd-BookItalic.eot");
     src: local("Circular Std Book Italic"), local("CircularStd-BookItalic"),
@@ -66,6 +70,7 @@ li {
 
 body {
     font-size: 20px;
+    font-display: swap;
     background-color: $backgound-color;
     color: $text-color;
 }
@@ -552,7 +557,7 @@ h3 {
     padding: 60px 40px;
 }
 .card__title {
-    font-size: 30px;
+    // font-size: 30px;
 }
 
 // .review {
