@@ -848,6 +848,14 @@ footer {
             font-size: 18px;
             padding: 11px 26px;
         }
+        .hero-swiper {
+            height: 60vw;
+        }
+    }
+    @media screen and (max-width: 635px) {
+        .hero-man_img {
+            display: none;
+        }
     }
     @media all and (max-width: 550px) {
         .card__link {

@@ -796,6 +796,15 @@ footer .footer-button:hover {
     font-size: 18px;
     padding: 11px 26px;
   }
+  .hero-swiper {
+    height: 60vw;
+  }
+}
+
+@media screen and (max-width: 992px) and (max-width: 635px) {
+  .hero-man_img {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 992px) and (max-width: 425px) {

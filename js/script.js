@@ -18,10 +18,10 @@ const heroSwiper = new Swiper('.hero-swiper', {
    autoHeight: false,
    spaceBetween: 70,
    slidesPerView: 1,
-   direction: 'vertical',
-   // autoplay: {
-   //    delay: 2000,
-   // },
+   // direction: 'vertical',
+   autoplay: {
+      delay: 2000,
+   },
    pagination: {
       el: '.swiper-pagination',
       type: 'fraction'
@@ -29,6 +29,16 @@ const heroSwiper = new Swiper('.hero-swiper', {
    scrollbar: {
       el: '.swiper-scrollbar',
       draggable: true,
+   },
+   breakpoints: {
+      // when window width is >= 320px
+      320: {
+         // direction: 'horisontal',
+      },
+      // when window width is >= 480px
+      780: {
+         // direction: 'vertical',
+      },
    },
 });
 
